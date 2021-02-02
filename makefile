@@ -1,9 +1,10 @@
 all: 
+	echo c fait
 	cd ./libavalam; make
 	cd ./exemple; make
 	cd ./standalone; make
 	cd ./diag; make
-
+	
 debug: 
 	cd ./libavalam; make debug
 	cd ./exemple; make debug
@@ -15,5 +16,4 @@ clean:
 	cd ./exemple; make clean
 	cd ./standalone; make clean
 	cd ./diag; make clean
-
 
