@@ -1,5 +1,4 @@
 all: 
-	echo c fait
 	cd ./libavalam; make
 	cd ./exemple; make
 	cd ./standalone; make
