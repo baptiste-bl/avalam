@@ -3,6 +3,7 @@ all:
 	cd ./exemple; make
 	cd ./standalone; make
 	cd ./diag; make
+	ls -l
 	
 debug: 
 	cd ./libavalam; make debug
