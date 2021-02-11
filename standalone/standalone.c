@@ -57,13 +57,7 @@ int main(int argc, char argv[])
 			afficherPosition(p);
 			afficherScore(s);
 
-			//fwrite(afficherPosition(p),0,1,fichier);
-			//fwrite("\n\n",2,1,fichier);
-			//fwrite(afficherScore(s),0,1,fichier);
-      //fwrite("\n\n",2,1,fichier);
-
 			fclose(fichier);
-      printf("\ntest");
 		}
   }
 
