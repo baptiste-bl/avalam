@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <avalam.h>
-#include <topologie.h>
+#include "avalam.h"
+#include "topologie.h"
 
 int main(void) {
 	T_Position p; 
@@ -9,7 +9,7 @@ int main(void) {
 
 	printf0("Création de la position initiale ...\n"); 
 	p = getPositionInitiale();
-	
+	printf("%s",p);
 	printf0("Récupération des coups légaux de la position initiale ...\n"); 
  	l = getCoupsLegaux(p);
 
@@ -17,7 +17,6 @@ int main(void) {
 	printf("Depuis la position initiale du jeu, il y a %d coups possibles\n", l.nb);
 
 	printf("Depuis la position initiale du jeu, le trait est aux %ss\n", COLNAME(p.trait));
-
 
 	return 0;
 }

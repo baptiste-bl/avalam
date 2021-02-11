@@ -152,3 +152,12 @@ void afficherScore(T_Score s) {
 	printf("J: %d (%d piles de 5) - R : %d (%d piles de 5)\n", s.nbJ, s.nbJ5, s.nbR, s.nbR5);
 }
 
+
+
+
+
+
+
+
+
+
