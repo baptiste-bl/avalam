@@ -29,7 +29,7 @@ T_Position getPositionInitiale() {
 void afficherPosition(T_Position p) {
 	int i; 
 	for(i=0;i<NBCASES;i++) {
-		printf("%3d : %3d : %s\n", i, p.cols[i].nb, COLNAME(p.cols[i].couleur));
+		printf("\n{%s:%3d, %s:%3d},", STR_NB, p.cols[i].nb, STR_COLS, COLNAME(p.cols[i].couleur));
 	}
 }
 
